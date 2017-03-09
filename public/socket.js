@@ -1,5 +1,5 @@
 $(function () {
-    socket = io(location.host);
+    socket = io(location.hostname+":4002");
 
     $(document).on("visibilitychange", function () {
         console.log("visibilitychange", document.hidden);
