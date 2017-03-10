@@ -3,7 +3,7 @@ var koa = require('koa.io');
 var path = require('path');
 var fs = require('fs');
 var app = koa();
-
+require('./connect-market');
 
 app.use(staticCache(path.join(__dirname, 'public')));
 
@@ -12,6 +12,6 @@ app.use(function*() {
     this.type = 'html';
 });
 
-console.log("listening on :4001");
+console.log("bot-remote is listening on :4001");
 app.listen(4001);
 

@@ -1,13 +1,12 @@
 {
-  "name": "motor-fe",
+  "name": "bot-remote",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "oldpi": "node app.js oldpi"
-  },
-  "author": "MH",
+    "start": "node app.js"
+     },
+  "author": "Matthias Hermsdorf",
   "license": "ISC",
   "devDependencies": {
     "koa": "^1.2.4",
@@ -18,9 +17,8 @@
     "koa-compress": "^1.0.9",
     "koa-static-cache": "^3.1.7",
     "koa.io": "0.0.3",
-    "pigpio": "^0.4.0",
-    "power-off": "1.1.1",
     "socket.io": "^1.7.1",
+    "socket.io-client":"^1.3.7",
     "gyronorm":"2.0.4"
   }
 }
