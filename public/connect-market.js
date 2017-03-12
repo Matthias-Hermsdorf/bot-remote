@@ -5,12 +5,12 @@ $(function () {
     market.on('connect', function () {
      //   $(window).trigger({type:"connection-found"})
      console.log("market connected");
-     market.emit("remote-in-use",{name:"remote frontend"});
+     //market.emit("remote-in-use",{name:"remote frontend"});
     });
 
-    market.on('bot-list', function (data) {
+    market.on('device-list', function (data) {
      //   $(window).trigger({type:"connection-found"})
-     console.log("market bot-list",data);
+     console.log("market device-list",data);
     });
 
 
