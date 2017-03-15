@@ -3,5 +3,5 @@ let ip = require('my-local-ip')();
 
 market.on('connect', function(){ 
     console.log("connect to market at localhost:3095") 
-    market.emit("device-add",{name:"Remote Backend",host:ip+":4001", type:"remote"})
+    market.emit("device-add",{name:"Puppet Master Remote",host:"http://"+ip+":4001", type:"remote"})
 });
