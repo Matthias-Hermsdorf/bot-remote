@@ -19,6 +19,7 @@ body {
 
 .area-text {
     max-width: 1000px;
+    min-width: 300px;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -35,8 +36,3 @@ h1 {
     padding: 0;
     margin: 0 0 10px;
 }
-
-body.dead {
-
-}
-

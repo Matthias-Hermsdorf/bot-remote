@@ -26,3 +26,20 @@
 .area-config button:focus {
     color: rgba(255,255,255,0.7);
 }
+
+.area-config input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.3);
+    border: none;
+    padding: 5px;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+}
+
+.area-config input:focus {
+    background: rgba(255,255,255,0.35);
+    color: rgba(255,255,255,0.7);
+
+}
