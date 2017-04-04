@@ -3,7 +3,7 @@ var koa = require('koa.io');
 var path = require('path');
 var fs = require('fs');
 var app = koa();
-require('./connect-market');
+require('./connect-market-be');
 
 app.use(staticCache(path.join(__dirname, 'public')));
 
